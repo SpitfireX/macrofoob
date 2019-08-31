@@ -22,6 +22,7 @@ F 0 "SW1" V 7547 1651 50  0000 R CNN
 F 1 "Switch" V 7454 1651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 7500 1900 50  0001 C CNN
 F 3 "~" H 7500 1900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 7500 1700 50  0001 C CNN "URL"
 	1    7500 1700
 	0    -1   -1   0   
 $EndComp
@@ -33,6 +34,7 @@ F 0 "D1" H 7650 2119 50  0000 C CNN
 F 1 "1N4148" H 7650 2026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7650 1900 50  0001 C CNN
 F 3 "~" H 7650 1900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 7650 1900 50  0001 C CNN "URL"
 	1    7650 1900
 	-1   0    0    1   
 $EndComp
@@ -44,6 +46,7 @@ F 0 "SW2" V 8297 1651 50  0000 R CNN
 F 1 "Switch" V 8204 1651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 8250 1900 50  0001 C CNN
 F 3 "~" H 8250 1900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 8250 1700 50  0001 C CNN "URL"
 	1    8250 1700
 	0    -1   -1   0   
 $EndComp
@@ -55,6 +58,7 @@ F 0 "D2" H 8400 2119 50  0000 C CNN
 F 1 "1N4148" H 8400 2026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8400 1900 50  0001 C CNN
 F 3 "~" H 8400 1900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 8400 1900 50  0001 C CNN "URL"
 	1    8400 1900
 	-1   0    0    1   
 $EndComp
@@ -66,6 +70,7 @@ F 0 "SW3" V 9047 1651 50  0000 R CNN
 F 1 "Switch" V 8954 1651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9000 1900 50  0001 C CNN
 F 3 "~" H 9000 1900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9000 1700 50  0001 C CNN "URL"
 	1    9000 1700
 	0    -1   -1   0   
 $EndComp
@@ -77,6 +82,7 @@ F 0 "D3" H 9150 2119 50  0000 C CNN
 F 1 "1N4148" H 9150 2026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9150 1900 50  0001 C CNN
 F 3 "~" H 9150 1900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9150 1900 50  0001 C CNN "URL"
 	1    9150 1900
 	-1   0    0    1   
 $EndComp
@@ -88,6 +94,7 @@ F 0 "SW4" V 9797 1651 50  0000 R CNN
 F 1 "Switch" V 9704 1651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9750 1900 50  0001 C CNN
 F 3 "~" H 9750 1900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9750 1700 50  0001 C CNN "URL"
 	1    9750 1700
 	0    -1   -1   0   
 $EndComp
@@ -99,6 +106,7 @@ F 0 "D4" H 9900 2119 50  0000 C CNN
 F 1 "1N4148" H 9900 2026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9900 1900 50  0001 C CNN
 F 3 "~" H 9900 1900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9900 1900 50  0001 C CNN "URL"
 	1    9900 1900
 	-1   0    0    1   
 $EndComp
@@ -110,6 +118,7 @@ F 0 "SW5" V 10547 1651 50  0000 R CNN
 F 1 "Switch" V 10454 1651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 10500 1900 50  0001 C CNN
 F 3 "~" H 10500 1900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 10500 1700 50  0001 C CNN "URL"
 	1    10500 1700
 	0    -1   -1   0   
 $EndComp
@@ -121,6 +130,7 @@ F 0 "D5" H 10650 2119 50  0000 C CNN
 F 1 "1N4148" H 10650 2026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 10650 1900 50  0001 C CNN
 F 3 "~" H 10650 1900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 10650 1900 50  0001 C CNN "URL"
 	1    10650 1900
 	-1   0    0    1   
 $EndComp
@@ -143,6 +153,7 @@ F 0 "SW6" V 7547 2401 50  0000 R CNN
 F 1 "Switch" V 7454 2401 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 7500 2650 50  0001 C CNN
 F 3 "~" H 7500 2650 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 7500 2450 50  0001 C CNN "URL"
 	1    7500 2450
 	0    -1   -1   0   
 $EndComp
@@ -154,6 +165,7 @@ F 0 "D6" H 7650 2869 50  0000 C CNN
 F 1 "1N4148" H 7650 2776 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7650 2650 50  0001 C CNN
 F 3 "~" H 7650 2650 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 7650 2650 50  0001 C CNN "URL"
 	1    7650 2650
 	-1   0    0    1   
 $EndComp
@@ -165,6 +177,7 @@ F 0 "SW7" V 8297 2401 50  0000 R CNN
 F 1 "Switch" V 8204 2401 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 8250 2650 50  0001 C CNN
 F 3 "~" H 8250 2650 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 8250 2450 50  0001 C CNN "URL"
 	1    8250 2450
 	0    -1   -1   0   
 $EndComp
@@ -176,6 +189,7 @@ F 0 "D7" H 8400 2869 50  0000 C CNN
 F 1 "1N4148" H 8400 2776 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8400 2650 50  0001 C CNN
 F 3 "~" H 8400 2650 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 8400 2650 50  0001 C CNN "URL"
 	1    8400 2650
 	-1   0    0    1   
 $EndComp
@@ -187,6 +201,7 @@ F 0 "SW8" V 9047 2401 50  0000 R CNN
 F 1 "Switch" V 8954 2401 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9000 2650 50  0001 C CNN
 F 3 "~" H 9000 2650 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9000 2450 50  0001 C CNN "URL"
 	1    9000 2450
 	0    -1   -1   0   
 $EndComp
@@ -198,6 +213,7 @@ F 0 "D8" H 9150 2869 50  0000 C CNN
 F 1 "1N4148" H 9150 2776 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9150 2650 50  0001 C CNN
 F 3 "~" H 9150 2650 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9150 2650 50  0001 C CNN "URL"
 	1    9150 2650
 	-1   0    0    1   
 $EndComp
@@ -209,6 +225,7 @@ F 0 "SW9" V 9797 2401 50  0000 R CNN
 F 1 "Switch" V 9704 2401 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9750 2650 50  0001 C CNN
 F 3 "~" H 9750 2650 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9750 2450 50  0001 C CNN "URL"
 	1    9750 2450
 	0    -1   -1   0   
 $EndComp
@@ -220,6 +237,7 @@ F 0 "D9" H 9900 2869 50  0000 C CNN
 F 1 "1N4148" H 9900 2776 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9900 2650 50  0001 C CNN
 F 3 "~" H 9900 2650 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9900 2650 50  0001 C CNN "URL"
 	1    9900 2650
 	-1   0    0    1   
 $EndComp
@@ -231,6 +249,7 @@ F 0 "SW10" V 10547 2401 50  0000 R CNN
 F 1 "Switch" V 10454 2401 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 10500 2650 50  0001 C CNN
 F 3 "~" H 10500 2650 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 10500 2450 50  0001 C CNN "URL"
 	1    10500 2450
 	0    -1   -1   0   
 $EndComp
@@ -242,6 +261,7 @@ F 0 "D10" H 10650 2869 50  0000 C CNN
 F 1 "1N4148" H 10650 2776 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 10650 2650 50  0001 C CNN
 F 3 "~" H 10650 2650 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 10650 2650 50  0001 C CNN "URL"
 	1    10650 2650
 	-1   0    0    1   
 $EndComp
@@ -264,6 +284,7 @@ F 0 "SW11" V 7547 3151 50  0000 R CNN
 F 1 "Switch" V 7454 3151 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 7500 3400 50  0001 C CNN
 F 3 "~" H 7500 3400 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 7500 3200 50  0001 C CNN "URL"
 	1    7500 3200
 	0    -1   -1   0   
 $EndComp
@@ -275,6 +296,7 @@ F 0 "D11" H 7650 3619 50  0000 C CNN
 F 1 "1N4148" H 7650 3526 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7650 3400 50  0001 C CNN
 F 3 "~" H 7650 3400 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 7650 3400 50  0001 C CNN "URL"
 	1    7650 3400
 	-1   0    0    1   
 $EndComp
@@ -286,6 +308,7 @@ F 0 "SW12" V 8297 3151 50  0000 R CNN
 F 1 "Switch" V 8204 3151 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 8250 3400 50  0001 C CNN
 F 3 "~" H 8250 3400 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 8250 3200 50  0001 C CNN "URL"
 	1    8250 3200
 	0    -1   -1   0   
 $EndComp
@@ -297,6 +320,7 @@ F 0 "D12" H 8400 3619 50  0000 C CNN
 F 1 "1N4148" H 8400 3526 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8400 3400 50  0001 C CNN
 F 3 "~" H 8400 3400 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 8400 3400 50  0001 C CNN "URL"
 	1    8400 3400
 	-1   0    0    1   
 $EndComp
@@ -308,6 +332,7 @@ F 0 "SW13" V 9047 3151 50  0000 R CNN
 F 1 "Switch" V 8954 3151 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9000 3400 50  0001 C CNN
 F 3 "~" H 9000 3400 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9000 3200 50  0001 C CNN "URL"
 	1    9000 3200
 	0    -1   -1   0   
 $EndComp
@@ -319,6 +344,7 @@ F 0 "D13" H 9150 3619 50  0000 C CNN
 F 1 "1N4148" H 9150 3526 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9150 3400 50  0001 C CNN
 F 3 "~" H 9150 3400 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9150 3400 50  0001 C CNN "URL"
 	1    9150 3400
 	-1   0    0    1   
 $EndComp
@@ -330,6 +356,7 @@ F 0 "SW14" V 9797 3151 50  0000 R CNN
 F 1 "Switch" V 9704 3151 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9750 3400 50  0001 C CNN
 F 3 "~" H 9750 3400 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9750 3200 50  0001 C CNN "URL"
 	1    9750 3200
 	0    -1   -1   0   
 $EndComp
@@ -341,6 +368,7 @@ F 0 "D14" H 9900 3619 50  0000 C CNN
 F 1 "1N4148" H 9900 3526 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9900 3400 50  0001 C CNN
 F 3 "~" H 9900 3400 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9900 3400 50  0001 C CNN "URL"
 	1    9900 3400
 	-1   0    0    1   
 $EndComp
@@ -352,6 +380,7 @@ F 0 "SW15" V 10547 3151 50  0000 R CNN
 F 1 "Switch" V 10454 3151 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 10500 3400 50  0001 C CNN
 F 3 "~" H 10500 3400 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 10500 3200 50  0001 C CNN "URL"
 	1    10500 3200
 	0    -1   -1   0   
 $EndComp
@@ -363,6 +392,7 @@ F 0 "D15" H 10650 3619 50  0000 C CNN
 F 1 "1N4148" H 10650 3526 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 10650 3400 50  0001 C CNN
 F 3 "~" H 10650 3400 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 10650 3400 50  0001 C CNN "URL"
 	1    10650 3400
 	-1   0    0    1   
 $EndComp
@@ -385,6 +415,7 @@ F 0 "SW16" V 7547 3901 50  0000 R CNN
 F 1 "Switch" V 7454 3901 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 7500 4150 50  0001 C CNN
 F 3 "~" H 7500 4150 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 7500 3950 50  0001 C CNN "URL"
 	1    7500 3950
 	0    -1   -1   0   
 $EndComp
@@ -396,6 +427,7 @@ F 0 "D16" H 7650 4369 50  0000 C CNN
 F 1 "1N4148" H 7650 4276 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7650 4150 50  0001 C CNN
 F 3 "~" H 7650 4150 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 7650 4150 50  0001 C CNN "URL"
 	1    7650 4150
 	-1   0    0    1   
 $EndComp
@@ -407,6 +439,7 @@ F 0 "SW17" V 8297 3901 50  0000 R CNN
 F 1 "Switch" V 8204 3901 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 8250 4150 50  0001 C CNN
 F 3 "~" H 8250 4150 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 8250 3950 50  0001 C CNN "URL"
 	1    8250 3950
 	0    -1   -1   0   
 $EndComp
@@ -418,6 +451,7 @@ F 0 "D17" H 8400 4369 50  0000 C CNN
 F 1 "1N4148" H 8400 4276 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8400 4150 50  0001 C CNN
 F 3 "~" H 8400 4150 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 8400 4150 50  0001 C CNN "URL"
 	1    8400 4150
 	-1   0    0    1   
 $EndComp
@@ -429,6 +463,7 @@ F 0 "SW18" V 9047 3901 50  0000 R CNN
 F 1 "Switch" V 8954 3901 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9000 4150 50  0001 C CNN
 F 3 "~" H 9000 4150 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9000 3950 50  0001 C CNN "URL"
 	1    9000 3950
 	0    -1   -1   0   
 $EndComp
@@ -440,6 +475,7 @@ F 0 "D18" H 9150 4369 50  0000 C CNN
 F 1 "1N4148" H 9150 4276 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9150 4150 50  0001 C CNN
 F 3 "~" H 9150 4150 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9150 4150 50  0001 C CNN "URL"
 	1    9150 4150
 	-1   0    0    1   
 $EndComp
@@ -451,6 +487,7 @@ F 0 "SW19" V 9797 3901 50  0000 R CNN
 F 1 "Switch" V 9704 3901 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9750 4150 50  0001 C CNN
 F 3 "~" H 9750 4150 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9750 3950 50  0001 C CNN "URL"
 	1    9750 3950
 	0    -1   -1   0   
 $EndComp
@@ -462,6 +499,7 @@ F 0 "D19" H 9900 4369 50  0000 C CNN
 F 1 "1N4148" H 9900 4276 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9900 4150 50  0001 C CNN
 F 3 "~" H 9900 4150 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9900 4150 50  0001 C CNN "URL"
 	1    9900 4150
 	-1   0    0    1   
 $EndComp
@@ -473,6 +511,7 @@ F 0 "SW20" V 10547 3901 50  0000 R CNN
 F 1 "Switch" V 10454 3901 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 10500 4150 50  0001 C CNN
 F 3 "~" H 10500 4150 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 10500 3950 50  0001 C CNN "URL"
 	1    10500 3950
 	0    -1   -1   0   
 $EndComp
@@ -484,6 +523,7 @@ F 0 "D20" H 10650 4369 50  0000 C CNN
 F 1 "1N4148" H 10650 4276 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 10650 4150 50  0001 C CNN
 F 3 "~" H 10650 4150 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 10650 4150 50  0001 C CNN "URL"
 	1    10650 4150
 	-1   0    0    1   
 $EndComp
@@ -506,6 +546,7 @@ F 0 "SW21" V 7547 4651 50  0000 R CNN
 F 1 "Switch" V 7454 4651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 7500 4900 50  0001 C CNN
 F 3 "~" H 7500 4900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 7500 4700 50  0001 C CNN "URL"
 	1    7500 4700
 	0    -1   -1   0   
 $EndComp
@@ -517,6 +558,7 @@ F 0 "D21" H 7650 5119 50  0000 C CNN
 F 1 "1N4148" H 7650 5026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 7650 4900 50  0001 C CNN
 F 3 "~" H 7650 4900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 7650 4900 50  0001 C CNN "URL"
 	1    7650 4900
 	-1   0    0    1   
 $EndComp
@@ -528,6 +570,7 @@ F 0 "SW22" V 8297 4651 50  0000 R CNN
 F 1 "Switch" V 8204 4651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 8250 4900 50  0001 C CNN
 F 3 "~" H 8250 4900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 8250 4700 50  0001 C CNN "URL"
 	1    8250 4700
 	0    -1   -1   0   
 $EndComp
@@ -539,6 +582,7 @@ F 0 "D22" H 8400 5119 50  0000 C CNN
 F 1 "1N4148" H 8400 5026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 8400 4900 50  0001 C CNN
 F 3 "~" H 8400 4900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 8400 4900 50  0001 C CNN "URL"
 	1    8400 4900
 	-1   0    0    1   
 $EndComp
@@ -550,6 +594,7 @@ F 0 "SW23" V 9047 4651 50  0000 R CNN
 F 1 "Switch" V 8954 4651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9000 4900 50  0001 C CNN
 F 3 "~" H 9000 4900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9000 4700 50  0001 C CNN "URL"
 	1    9000 4700
 	0    -1   -1   0   
 $EndComp
@@ -561,6 +606,7 @@ F 0 "D23" H 9150 5119 50  0000 C CNN
 F 1 "1N4148" H 9150 5026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9150 4900 50  0001 C CNN
 F 3 "~" H 9150 4900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9150 4900 50  0001 C CNN "URL"
 	1    9150 4900
 	-1   0    0    1   
 $EndComp
@@ -572,6 +618,7 @@ F 0 "SW24" V 9797 4651 50  0000 R CNN
 F 1 "Switch" V 9704 4651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 9750 4900 50  0001 C CNN
 F 3 "~" H 9750 4900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 9750 4700 50  0001 C CNN "URL"
 	1    9750 4700
 	0    -1   -1   0   
 $EndComp
@@ -583,6 +630,7 @@ F 0 "D24" H 9900 5119 50  0000 C CNN
 F 1 "1N4148" H 9900 5026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 9900 4900 50  0001 C CNN
 F 3 "~" H 9900 4900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 9900 4900 50  0001 C CNN "URL"
 	1    9900 4900
 	-1   0    0    1   
 $EndComp
@@ -594,6 +642,7 @@ F 0 "SW25" V 10547 4651 50  0000 R CNN
 F 1 "Switch" V 10454 4651 50  0000 R CNN
 F 2 "keyswitches:Kailh_socket_optional" H 10500 4900 50  0001 C CNN
 F 3 "~" H 10500 4900 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32903471019.html" H 10500 4700 50  0001 C CNN "URL"
 	1    10500 4700
 	0    -1   -1   0   
 $EndComp
@@ -605,6 +654,7 @@ F 0 "D25" H 10650 5119 50  0000 C CNN
 F 1 "1N4148" H 10650 5026 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 10650 4900 50  0001 C CNN
 F 3 "~" H 10650 4900 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 10650 4900 50  0001 C CNN "URL"
 	1    10650 4900
 	-1   0    0    1   
 $EndComp
@@ -680,12 +730,11 @@ U 1 1 5D814F9B
 P 3250 6150
 F 0 "U1" V 3358 5671 60  0000 R CNN
 F 1 "ProMicro" V 3250 5671 60  0000 R CNN
-F 2 "promicro:ProMicro" V 3142 5671 60  0000 R CNN
+F 2 "promicro:ProMicroModified" V 3142 5671 60  0000 R CNN
 F 3 "" H 3350 5100 60  0000 C CNN
 	1    3250 6150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3950 5700
 $Comp
 L LED:SK6812MINI LED1
 U 1 1 5D82654C
@@ -694,6 +743,7 @@ F 0 "LED1" H 1300 1400 50  0000 R CNN
 F 1 "SK6812MINI" H 1300 1500 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1600 1000 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1650 925 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 1550 1300 50  0001 C CNN "URL"
 	1    1550 1300
 	1    0    0    1   
 $EndComp
@@ -705,6 +755,7 @@ F 0 "SW26" H 4250 5789 50  0000 C CNN
 F 1 "SW_Reset" H 4250 5696 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS810" H 4250 5700 50  0001 C CNN
 F 3 "~" H 4250 5700 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32837850387.html" H 4250 5500 50  0001 C CNN "URL"
 	1    4250 5500
 	1    0    0    -1  
 $EndComp
@@ -778,7 +829,7 @@ U 1 1 5D95B3C9
 P 7500 1150
 F 0 "RC1" H 7500 1520 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 7500 1427 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 7350 1310 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7350 1310 50  0001 C CNN
 F 3 "~" H 7500 1410 50  0001 C CNN
 	1    7500 1150
 	1    0    0    -1  
@@ -787,12 +838,10 @@ Text GLabel 3950 5800 2    50   Input ~ 0
 RC1A
 Text GLabel 3950 5900 2    50   Input ~ 0
 RC1B
-Text GLabel 2550 5800 0    50   Input ~ 0
+Text GLabel 2550 5400 0    50   Input ~ 0
 RC2A
-Text GLabel 2550 5900 0    50   Input ~ 0
+Text GLabel 2550 5500 0    50   Input ~ 0
 RC2B
-NoConn ~ 2550 5500
-NoConn ~ 2550 5400
 $Comp
 L power:GND #PWR09
 U 1 1 5D98680D
@@ -810,7 +859,7 @@ U 1 1 5D9907FA
 P 10500 1150
 F 0 "RC2" H 10500 1520 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 10500 1427 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 10350 1310 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10350 1310 50  0001 C CNN
 F 3 "~" H 10500 1410 50  0001 C CNN
 	1    10500 1150
 	1    0    0    -1  
@@ -926,7 +975,7 @@ U 1 1 5D9F1028
 P 7500 6000
 F 0 "RC3" H 7500 6370 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 7500 6277 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 7350 6160 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7350 6160 50  0001 C CNN
 F 3 "~" H 7500 6260 50  0001 C CNN
 	1    7500 6000
 	1    0    0    -1  
@@ -948,7 +997,7 @@ U 1 1 5D9F1034
 P 10500 6000
 F 0 "RC4" H 10500 6370 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 10500 6277 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 10350 6160 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10350 6160 50  0001 C CNN
 F 3 "~" H 10500 6260 50  0001 C CNN
 	1    10500 6000
 	1    0    0    -1  
@@ -988,6 +1037,7 @@ F 0 "LED2" H 2350 1400 50  0000 R CNN
 F 1 "SK6812MINI" H 2350 1500 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 1000 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2700 925 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 2600 1300 50  0001 C CNN "URL"
 	1    2600 1300
 	1    0    0    1   
 $EndComp
@@ -1033,6 +1083,7 @@ F 0 "LED3" H 3400 1400 50  0000 R CNN
 F 1 "SK6812MINI" H 3400 1500 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 1000 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 925 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 3650 1300 50  0001 C CNN "URL"
 	1    3650 1300
 	1    0    0    1   
 $EndComp
@@ -1091,6 +1142,7 @@ F 0 "LED4" H 4450 1400 50  0000 R CNN
 F 1 "SK6812MINI" H 4450 1500 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4750 1000 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 925 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 4700 1300 50  0001 C CNN "URL"
 	1    4700 1300
 	1    0    0    1   
 $EndComp
@@ -1159,6 +1211,7 @@ F 0 "LED5" H 1300 2800 50  0000 R CNN
 F 1 "SK6812MINI" H 1300 2900 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1600 2400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1650 2325 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 1550 2700 50  0001 C CNN "URL"
 	1    1550 2700
 	1    0    0    1   
 $EndComp
@@ -1217,6 +1270,7 @@ F 0 "LED6" H 2350 2800 50  0000 R CNN
 F 1 "SK6812MINI" H 2350 2900 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 2400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2700 2325 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 2600 2700 50  0001 C CNN "URL"
 	1    2600 2700
 	1    0    0    1   
 $EndComp
@@ -1275,6 +1329,7 @@ F 0 "LED7" H 3400 2800 50  0000 R CNN
 F 1 "SK6812MINI" H 3400 2900 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 2400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 2325 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 3650 2700 50  0001 C CNN "URL"
 	1    3650 2700
 	1    0    0    1   
 $EndComp
@@ -1333,6 +1388,7 @@ F 0 "LED8" H 4450 2800 50  0000 R CNN
 F 1 "SK6812MINI" H 4450 2900 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4750 2400 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 2325 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 4700 2700 50  0001 C CNN "URL"
 	1    4700 2700
 	1    0    0    1   
 $EndComp
@@ -1397,6 +1453,7 @@ F 0 "LED9" H 1300 4200 50  0000 R CNN
 F 1 "SK6812MINI" H 1300 4300 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1600 3800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1650 3725 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 1550 4100 50  0001 C CNN "URL"
 	1    1550 4100
 	1    0    0    1   
 $EndComp
@@ -1455,6 +1512,7 @@ F 0 "LED10" H 2350 4200 50  0000 R CNN
 F 1 "SK6812MINI" H 2350 4300 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 3800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2700 3725 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 2600 4100 50  0001 C CNN "URL"
 	1    2600 4100
 	1    0    0    1   
 $EndComp
@@ -1513,6 +1571,7 @@ F 0 "LED11" H 3400 4200 50  0000 R CNN
 F 1 "SK6812MINI" H 3400 4300 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3700 3800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3750 3725 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 3650 4100 50  0001 C CNN "URL"
 	1    3650 4100
 	1    0    0    1   
 $EndComp
@@ -1571,6 +1630,7 @@ F 0 "LED12" H 4450 4200 50  0000 R CNN
 F 1 "SK6812MINI" H 4450 4300 50  0000 R CNN
 F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4750 3800 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 3725 50  0001 L TNN
+F 4 "https://www.aliexpress.com/item/32830413032.html" H 4700 4100 50  0001 C CNN "URL"
 	1    4700 4100
 	1    0    0    1   
 $EndComp
@@ -1715,6 +1775,7 @@ F 0 "D26" H 5550 5469 50  0000 C CNN
 F 1 "1N4148" H 5550 5376 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 5550 5250 50  0001 C CNN
 F 3 "~" H 5550 5250 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 5550 5250 50  0001 C CNN "URL"
 	1    5550 5250
 	0    1    1    0   
 $EndComp
@@ -1748,6 +1809,7 @@ F 0 "Q1" H 5991 5797 50  0000 L CNN
 F 1 "2N 2222A" H 5991 5704 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 5850 50  0001 C CNN
 F 3 "~" H 5800 5750 50  0001 C CNN
+F 4 "https://www.reichelt.de/bipolartransistor-npn-40v-0-8a-0-4w-sot-23-2n-2222a-smd-p18407.html" H 5800 5750 50  0001 C CNN "URL"
 	1    5800 5750
 	1    0    0    -1  
 $EndComp
@@ -1788,4 +1850,114 @@ Wire Wire Line
 	5550 4700 5550 4750
 Wire Wire Line
 	5550 5050 5550 5100
+Text GLabel 1350 5800 0    50   Input ~ 0
+SCL
+Text GLabel 1350 5900 0    50   Input ~ 0
+SDA
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D6C8E16
+P 5850 6800
+F 0 "J?" H 5929 6793 50  0000 L CNN
+F 1 "OLED_I2C" H 5929 6700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 6800 50  0001 C CNN
+F 3 "~" H 5850 6800 50  0001 C CNN
+	1    5850 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D6CADAB
+P 5650 7000
+F 0 "#PWR?" H 5650 6750 50  0001 C CNN
+F 1 "GND" H 5655 6825 50  0000 C CNN
+F 2 "" H 5650 7000 50  0001 C CNN
+F 3 "" H 5650 7000 50  0001 C CNN
+	1    5650 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 6800 0    50   Input ~ 0
+SCL
+Text GLabel 5650 6700 0    50   Input ~ 0
+SDA
+$Comp
+L power:VCC #PWR?
+U 1 1 5D6CC80A
+P 3950 5700
+F 0 "#PWR?" H 3950 5550 50  0001 C CNN
+F 1 "VCC" V 3967 5829 50  0000 L CNN
+F 2 "" H 3950 5700 50  0001 C CNN
+F 3 "" H 3950 5700 50  0001 C CNN
+	1    3950 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D6CE66C
+P 5450 6900
+F 0 "#PWR?" H 5450 6750 50  0001 C CNN
+F 1 "VCC" V 5468 7028 50  0000 L CNN
+F 2 "" H 5450 6900 50  0001 C CNN
+F 3 "" H 5450 6900 50  0001 C CNN
+	1    5450 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 6900 5650 6900
+$Comp
+L Device:R R?
+U 1 1 5D6E3B5A
+P 1600 5600
+F 0 "R?" H 1670 5647 50  0000 L CNN
+F 1 "4.7k" H 1670 5554 50  0000 L CNN
+F 2 "" V 1530 5600 50  0001 C CNN
+F 3 "~" H 1600 5600 50  0001 C CNN
+	1    1600 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D6E43B5
+P 1800 5600
+F 0 "R?" H 1870 5647 50  0000 L CNN
+F 1 "4.7k" H 1870 5554 50  0000 L CNN
+F 2 "" V 1730 5600 50  0001 C CNN
+F 3 "~" H 1800 5600 50  0001 C CNN
+	1    1800 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5800 1800 5750
+Wire Wire Line
+	1800 5400 1800 5450
+$Comp
+L power:VCC #PWR?
+U 1 1 5D702401
+P 1700 5400
+F 0 "#PWR?" H 1700 5250 50  0001 C CNN
+F 1 "VCC" H 1717 5575 50  0000 C CNN
+F 2 "" H 1700 5400 50  0001 C CNN
+F 3 "" H 1700 5400 50  0001 C CNN
+	1    1700 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5450 1600 5400
+Wire Wire Line
+	1600 5400 1700 5400
+Wire Wire Line
+	1350 5800 1800 5800
+Connection ~ 1800 5800
+Wire Wire Line
+	1350 5900 1600 5900
+Wire Wire Line
+	1600 5750 1600 5900
+Connection ~ 1600 5900
+Connection ~ 1700 5400
+Wire Wire Line
+	1700 5400 1800 5400
+Wire Wire Line
+	1800 5800 2550 5800
+Wire Wire Line
+	1600 5900 2550 5900
 $EndSCHEMATC
