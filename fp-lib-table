@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name testatur)(type KiCad)(uri ${KIPRJMOD}/lib/testatur.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/lib/keyswitches.pretty)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/lib/promicro.pretty)(options "")(descr ""))
+)
