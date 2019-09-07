@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -725,17 +725,6 @@ Wire Wire Line
 	10800 4150 10800 4900
 Connection ~ 10800 4150
 $Comp
-L promicro:ProMicro U1
-U 1 1 5D814F9B
-P 3250 6150
-F 0 "U1" V 3358 5671 60  0000 R CNN
-F 1 "ProMicro" V 3250 5671 60  0000 R CNN
-F 2 "promicro:ProMicroModified" V 3142 5671 60  0000 R CNN
-F 3 "" H 3350 5100 60  0000 C CNN
-	1    3250 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED:SK6812MINI LED1
 U 1 1 5D82654C
 P 1550 1300
@@ -747,49 +736,6 @@ F 4 "https://www.aliexpress.com/item/32830413032.html" H 1550 1300 50  0001 C CN
 	1    1550 1300
 	1    0    0    1   
 $EndComp
-$Comp
-L Switch:SW_Push SW26
-U 1 1 5D83BE77
-P 4250 5500
-F 0 "SW26" H 4250 5789 50  0000 C CNN
-F 1 "SW_Reset" H 4250 5696 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_PTS810" H 4250 5700 50  0001 C CNN
-F 3 "~" H 4250 5700 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/32837850387.html" H 4250 5500 50  0001 C CNN "URL"
-	1    4250 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR039
-U 1 1 5D862F79
-P 3950 5400
-F 0 "#PWR039" H 3950 5250 50  0001 C CNN
-F 1 "+5V" H 3965 5575 50  0000 C CNN
-F 2 "" H 3950 5400 50  0001 C CNN
-F 3 "" H 3950 5400 50  0001 C CNN
-	1    3950 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 5500 4050 5500
-$Comp
-L power:GND #PWR040
-U 1 1 5D86A066
-P 2500 5650
-F 0 "#PWR040" H 2500 5400 50  0001 C CNN
-F 1 "GND" V 2505 5521 50  0000 R CNN
-F 2 "" H 2500 5650 50  0001 C CNN
-F 3 "" H 2500 5650 50  0001 C CNN
-	1    2500 5650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 5650 2550 5650
-Wire Wire Line
-	2550 5650 2550 5600
-Wire Wire Line
-	2550 5700 2550 5650
-Connection ~ 2550 5650
 $Comp
 L power:GND #PWR02
 U 1 1 5D874691
@@ -829,19 +775,11 @@ U 1 1 5D95B3C9
 P 7500 1150
 F 0 "RC1" H 7500 1520 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 7500 1427 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7350 1310 50  0001 C CNN
+F 2 "testatur:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_custom" H 7350 1310 50  0001 C CNN
 F 3 "~" H 7500 1410 50  0001 C CNN
 	1    7500 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3950 5800 2    50   Input ~ 0
-RC1A
-Text GLabel 3950 5900 2    50   Input ~ 0
-RC1B
-Text GLabel 2550 5400 0    50   Input ~ 0
-RC2A
-Text GLabel 2550 5500 0    50   Input ~ 0
-RC2B
 $Comp
 L power:GND #PWR09
 U 1 1 5D98680D
@@ -859,7 +797,7 @@ U 1 1 5D9907FA
 P 10500 1150
 F 0 "RC2" H 10500 1520 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 10500 1427 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10350 1310 50  0001 C CNN
+F 2 "testatur:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_custom" H 10350 1310 50  0001 C CNN
 F 3 "~" H 10500 1410 50  0001 C CNN
 	1    10500 1150
 	1    0    0    -1  
@@ -883,12 +821,6 @@ Text GLabel 10200 1250 0    50   Input ~ 0
 RC2B
 Text GLabel 10200 1050 0    50   Input ~ 0
 RC2A
-Text GLabel 2550 6000 0    50   Input ~ 0
-RGB_DIN
-Wire Wire Line
-	3950 5600 4450 5600
-Wire Wire Line
-	4450 5600 4450 5500
 $Comp
 L power:+5V #PWR01
 U 1 1 5D93616E
@@ -951,8 +883,6 @@ Text GLabel 9300 5250 3    50   Input ~ 0
 COL3
 Text GLabel 10050 5250 3    50   Input ~ 0
 COL4
-Text GLabel 2550 6300 0    50   Input ~ 0
-COL5
 Text GLabel 7500 1900 0    50   Input ~ 0
 SW1
 Text GLabel 10500 1900 0    50   Input ~ 0
@@ -975,7 +905,7 @@ U 1 1 5D9F1028
 P 7500 6000
 F 0 "RC3" H 7500 6370 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 7500 6277 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7350 6160 50  0001 C CNN
+F 2 "testatur:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_custom" H 7350 6160 50  0001 C CNN
 F 3 "~" H 7500 6260 50  0001 C CNN
 	1    7500 6000
 	1    0    0    -1  
@@ -997,7 +927,7 @@ U 1 1 5D9F1034
 P 10500 6000
 F 0 "RC4" H 10500 6370 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 10500 6277 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 10350 6160 50  0001 C CNN
+F 2 "testatur:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_custom" H 10350 6160 50  0001 C CNN
 F 3 "~" H 10500 6260 50  0001 C CNN
 	1    10500 6000
 	1    0    0    -1  
@@ -1708,48 +1638,28 @@ Wire Wire Line
 Wire Wire Line
 	1050 4100 1250 4100
 NoConn ~ 5000 4100
-Text GLabel 3950 6300 2    50   Input ~ 0
-COL1
-Text GLabel 3950 6400 2    50   Input ~ 0
-COL2
-Text GLabel 2550 6500 0    50   Input ~ 0
-COL3
-Text GLabel 2550 6400 0    50   Input ~ 0
-COL4
-Text GLabel 2550 6200 0    50   Input ~ 0
-ROW1
-Text GLabel 2550 6100 0    50   Input ~ 0
-ROW2
-Text GLabel 3950 6200 2    50   Input ~ 0
-ROW3
-Text GLabel 3950 6100 2    50   Input ~ 0
-ROW4
-Text GLabel 3950 6000 2    50   Input ~ 0
-ROW5
-Text GLabel 3950 6500 2    50   Input ~ 0
-PIEZO
 $Comp
 L Device:Speaker_Crystal LS1
 U 1 1 5DAD0631
-P 6100 5250
-F 0 "LS1" H 6275 5247 50  0000 L CNN
-F 1 "Piezo_Speaker" H 6275 5154 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6065 5200 50  0001 C CNN
-F 3 "~" H 6065 5200 50  0001 C CNN
-	1    6100 5250
+P 6300 5200
+F 0 "LS1" H 6475 5197 50  0000 L CNN
+F 1 "Piezo_Speaker" H 6475 5104 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6265 5150 50  0001 C CNN
+F 3 "~" H 6265 5150 50  0001 C CNN
+	1    6300 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5100 5750 0    50   Input ~ 0
+Text GLabel 5300 5700 0    50   Input ~ 0
 PIEZO
 $Comp
 L power:GND #PWR043
 U 1 1 5DAD223A
-P 5900 6050
-F 0 "#PWR043" H 5900 5800 50  0001 C CNN
-F 1 "GND" H 5905 5875 50  0000 C CNN
-F 2 "" H 5900 6050 50  0001 C CNN
-F 3 "" H 5900 6050 50  0001 C CNN
-	1    5900 6050
+P 6100 6000
+F 0 "#PWR043" H 6100 5750 50  0001 C CNN
+F 1 "GND" H 6105 5825 50  0000 C CNN
+F 2 "" H 6100 6000 50  0001 C CNN
+F 3 "" H 6100 6000 50  0001 C CNN
+	1    6100 6000
 	1    0    0    -1  
 $EndComp
 Text GLabel 10800 5250 3    50   Input ~ 0
@@ -1770,90 +1680,86 @@ $EndComp
 $Comp
 L Device:D D26
 U 1 1 5D6ABC69
-P 5550 5250
-F 0 "D26" H 5550 5469 50  0000 C CNN
-F 1 "1N4148" H 5550 5376 50  0000 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5550 5250 50  0001 C CNN
-F 3 "~" H 5550 5250 50  0001 C CNN
-F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 5550 5250 50  0001 C CNN "URL"
-	1    5550 5250
+P 5750 5200
+F 0 "D26" H 5750 5419 50  0000 C CNN
+F 1 "1N4148" H 5750 5326 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5750 5200 50  0001 C CNN
+F 3 "~" H 5750 5200 50  0001 C CNN
+F 4 "https://www.reichelt.de/gleichrichterdiode-100-v-0-15-a-mini-melf-1n-4148-smd-p18403.html" H 5750 5200 50  0001 C CNN "URL"
+	1    5750 5200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5D6AC40D
-P 5550 4900
-F 0 "R1" H 5620 4947 50  0000 L CNN
-F 1 "1k" H 5620 4854 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 4900 50  0001 C CNN
-F 3 "~" H 5550 4900 50  0001 C CNN
-	1    5550 4900
+P 5750 4850
+F 0 "R1" H 5820 4897 50  0000 L CNN
+F 1 "1k" H 5820 4804 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 4850 50  0001 C CNN
+F 3 "~" H 5750 4850 50  0001 C CNN
+	1    5750 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5D6ACF2D
-P 5350 5750
-F 0 "R2" V 5140 5750 50  0000 C CNN
-F 1 "1k" V 5233 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5280 5750 50  0001 C CNN
-F 3 "~" H 5350 5750 50  0001 C CNN
-	1    5350 5750
+P 5550 5700
+F 0 "R2" V 5340 5700 50  0000 C CNN
+F 1 "1k" V 5433 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 5700 50  0001 C CNN
+F 3 "~" H 5550 5700 50  0001 C CNN
+	1    5550 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Q_NPN_BEC Q1
 U 1 1 5D6AF1CE
-P 5800 5750
-F 0 "Q1" H 5991 5797 50  0000 L CNN
-F 1 "2N 2222A" H 5991 5704 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 5850 50  0001 C CNN
-F 3 "~" H 5800 5750 50  0001 C CNN
-F 4 "https://www.reichelt.de/bipolartransistor-npn-40v-0-8a-0-4w-sot-23-2n-2222a-smd-p18407.html" H 5800 5750 50  0001 C CNN "URL"
-	1    5800 5750
+P 6000 5700
+F 0 "Q1" H 6191 5747 50  0000 L CNN
+F 1 "2N 2222A" H 6191 5654 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 5800 50  0001 C CNN
+F 3 "~" H 6000 5700 50  0001 C CNN
+F 4 "https://www.reichelt.de/bipolartransistor-npn-40v-0-8a-0-4w-sot-23-2n-2222a-smd-p18407.html" H 6000 5700 50  0001 C CNN "URL"
+	1    6000 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 5750 5200 5750
+	5300 5700 5400 5700
 Wire Wire Line
-	5500 5750 5600 5750
+	5700 5700 5800 5700
 Wire Wire Line
-	5900 5950 5900 6050
+	6100 5900 6100 6000
 Wire Wire Line
-	5900 5550 5900 5450
+	6100 5500 6100 5400
 Wire Wire Line
-	5550 5400 5550 5450
+	5750 5350 5750 5400
 Wire Wire Line
-	5550 5450 5900 5450
-Connection ~ 5900 5450
+	5750 5400 6100 5400
+Connection ~ 6100 5400
 Wire Wire Line
-	5900 5450 5900 5350
+	6100 5400 6100 5300
 Wire Wire Line
-	5900 5250 5900 4700
+	6100 5200 6100 4650
 Wire Wire Line
-	5900 4700 5550 4700
+	6100 4650 5750 4650
 $Comp
 L power:+5V #PWR044
 U 1 1 5D6D3E04
-P 5900 4600
-F 0 "#PWR044" H 5900 4450 50  0001 C CNN
-F 1 "+5V" H 5915 4775 50  0000 C CNN
-F 2 "" H 5900 4600 50  0001 C CNN
-F 3 "" H 5900 4600 50  0001 C CNN
-	1    5900 4600
+P 6100 4550
+F 0 "#PWR044" H 6100 4400 50  0001 C CNN
+F 1 "+5V" H 6115 4725 50  0000 C CNN
+F 2 "" H 6100 4550 50  0001 C CNN
+F 3 "" H 6100 4550 50  0001 C CNN
+	1    6100 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 4700 5900 4600
-Connection ~ 5900 4700
+	6100 4650 6100 4550
+Connection ~ 6100 4650
 Wire Wire Line
-	5550 4700 5550 4750
+	5750 4650 5750 4700
 Wire Wire Line
-	5550 5050 5550 5100
-Text GLabel 1350 5800 0    50   Input ~ 0
-SCL
-Text GLabel 1350 5900 0    50   Input ~ 0
-SDA
+	5750 5000 5750 5050
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5D6C8E16
@@ -1881,17 +1787,6 @@ SCL
 Text GLabel 5650 6700 0    50   Input ~ 0
 SDA
 $Comp
-L power:VCC #PWR0102
-U 1 1 5D6CC80A
-P 3950 5700
-F 0 "#PWR0102" H 3950 5550 50  0001 C CNN
-F 1 "VCC" V 3967 5829 50  0000 L CNN
-F 2 "" H 3950 5700 50  0001 C CNN
-F 3 "" H 3950 5700 50  0001 C CNN
-	1    3950 5700
-	0    1    1    0   
-$EndComp
-$Comp
 L power:VCC #PWR0103
 U 1 1 5D6CE66C
 P 5450 6900
@@ -1904,60 +1799,53 @@ F 3 "" H 5450 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 6900 5650 6900
+$Sheet
+S 850  6200 1900 1250
+U 5D7850B4
+F0 "MCU" 50
+F1 "MCU.sch" 50
+$EndSheet
 $Comp
-L Device:R R3
-U 1 1 5D6E3B5A
-P 1600 5600
-F 0 "R3" H 1670 5647 50  0000 L CNN
-F 1 "4.7k" H 1670 5554 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1530 5600 50  0001 C CNN
-F 3 "~" H 1600 5600 50  0001 C CNN
-	1    1600 5600
-	-1   0    0    -1  
+L Switch:SW_Push SW?
+U 1 1 5D815843
+P 4300 6850
+AR Path="/5D815843" Ref="SW?"  Part="1" 
+AR Path="/5D7850B4/5D815843" Ref="SW?"  Part="1" 
+F 0 "SW?" H 4300 7139 50  0000 C CNN
+F 1 "SW_Reset" H 4300 7046 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS810" H 4300 7050 50  0001 C CNN
+F 3 "~" H 4300 7050 50  0001 C CNN
+F 4 "https://www.aliexpress.com/item/32837850387.html" H 4300 6850 50  0001 C CNN "URL"
+	1    4300 6850
+	1    0    0    -1  
 $EndComp
+Text GLabel 3950 6850 0    50   Input ~ 0
+Reset
 $Comp
-L Device:R R4
-U 1 1 5D6E43B5
-P 1800 5600
-F 0 "R4" H 1870 5647 50  0000 L CNN
-F 1 "4.7k" H 1870 5554 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 5600 50  0001 C CNN
-F 3 "~" H 1800 5600 50  0001 C CNN
-	1    1800 5600
+L power:GND #PWR?
+U 1 1 5D81904B
+P 4700 4400
+F 0 "#PWR?" H 4700 4150 50  0001 C CNN
+F 1 "GND" H 4705 4225 50  0000 C CNN
+F 2 "" H 4700 4400 50  0001 C CNN
+F 3 "" H 4700 4400 50  0001 C CNN
+	1    4700 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5D819078
+P 4650 6850
+F 0 "#PWR?" H 4650 6600 50  0001 C CNN
+F 1 "GND" H 4655 6675 50  0000 C CNN
+F 2 "" H 4650 6850 50  0001 C CNN
+F 3 "" H 4650 6850 50  0001 C CNN
+	1    4650 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 5800 1800 5750
+	3950 6850 4100 6850
 Wire Wire Line
-	1800 5400 1800 5450
-$Comp
-L power:VCC #PWR0104
-U 1 1 5D702401
-P 1700 5400
-F 0 "#PWR0104" H 1700 5250 50  0001 C CNN
-F 1 "VCC" H 1717 5575 50  0000 C CNN
-F 2 "" H 1700 5400 50  0001 C CNN
-F 3 "" H 1700 5400 50  0001 C CNN
-	1    1700 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 5450 1600 5400
-Wire Wire Line
-	1600 5400 1700 5400
-Wire Wire Line
-	1350 5800 1800 5800
-Connection ~ 1800 5800
-Wire Wire Line
-	1350 5900 1600 5900
-Wire Wire Line
-	1600 5750 1600 5900
-Connection ~ 1600 5900
-Connection ~ 1700 5400
-Wire Wire Line
-	1700 5400 1800 5400
-Wire Wire Line
-	1800 5800 2550 5800
-Wire Wire Line
-	1600 5900 2550 5900
+	4500 6850 4650 6850
 $EndSCHEMATC
