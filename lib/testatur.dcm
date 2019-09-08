@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED_combined_SK6812MINI_0805
+D Symbol for a keyboard backlight LED that can be either a SK6812MINI or a 0805 SMD LED
+$ENDCMP
+#
 #End Doc Library
