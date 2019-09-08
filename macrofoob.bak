@@ -1870,16 +1870,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 5D751619
-P 5350 4100
-F 0 "J2" H 5429 4143 50  0000 L CNN
-F 1 "LED_DATA" H 5429 4050 50  0000 L CNN
-F 2 "testatur:Generic_Pads_2mm_1x1" H 5350 4100 50  0001 C CNN
-F 3 "~" H 5350 4100 50  0001 C CNN
-	1    5350 4100
-	1    0    0    -1  
+P 5400 3900
+F 0 "J2" H 5479 3943 50  0000 L CNN
+F 1 "LED_DATA" H 5479 3850 50  0000 L CNN
+F 2 "testatur:Generic_Pads_2mm_1x1" H 5400 3900 50  0001 C CNN
+F 3 "~" H 5400 3900 50  0001 C CNN
+	1    5400 3900
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5000 4100 5150 4100
 $Comp
 L Connector_Generic:Conn_01x05 J4
 U 1 1 5D75615C
@@ -1956,4 +1954,11 @@ F 3 "~" H 5550 5700 50  0001 C CNN
 	1    5550 5700
 	0    1    1    0   
 $EndComp
+Text GLabel 5650 4100 2    50   Input ~ 0
+Backlight_RGB
+Wire Wire Line
+	5000 4100 5400 4100
+Wire Wire Line
+	5400 4100 5650 4100
+Connection ~ 5400 4100
 $EndSCHEMATC
