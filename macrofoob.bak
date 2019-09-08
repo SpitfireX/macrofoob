@@ -1786,7 +1786,7 @@ $EndComp
 Wire Wire Line
 	5300 6550 5500 6550
 $Sheet
-S 500  -1100 1900 1250
+S 750  6250 1900 1250
 U 5D7850B4
 F0 "MCU" 50
 F1 "MCU.sch" 50
@@ -1938,7 +1938,7 @@ COL4
 Text GLabel 1150 5550 0    50   Input ~ 0
 COL5
 $Sheet
-S 2950 -1100 1250 1250
+S 3200 6250 1250 1250
 U 5D79FC99
 F0 "Backlight" 50
 F1 "Backlight.sch" 50
