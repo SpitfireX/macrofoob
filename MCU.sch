@@ -778,7 +778,7 @@ U 1 1 5D7B3580
 P 1100 3100
 F 0 "J1" H 1207 4370 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1207 4277 50  0000 C CNN
-F 2 "keebio:HRO-TYPE-C-31-M-12-Assembly" H 1250 3100 50  0001 C CNN
+F 2 "testatur:HRO-TYPE-C-31-M-12_kicad-pinout" H 1250 3100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 3100 50  0001 C CNN
 	1    1100 3100
 	1    0    0    -1  
@@ -819,4 +819,8 @@ Wire Wire Line
 	7850 2600 7850 2150
 Wire Wire Line
 	7850 2150 8000 2150
+Text Label 2150 2700 0    50   ~ 0
+Dcon-
+Text Label 2150 2900 0    50   ~ 0
+Dcon+
 $EndSCHEMATC
